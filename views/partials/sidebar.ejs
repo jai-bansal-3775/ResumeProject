@@ -1,0 +1,41 @@
+<div class="border-end border-warning h-100">
+    <div class="text-center">
+        <img src="/images/Pic1.jpg" alt="" class="img-fluid rounded-circle mt-3" width="100px" height="80px">
+        <h3 class="text-white mt-3 st-font">Jonny Kumar</h3>
+    </div>
+    <!-- <nav class="nav flex-column text-center mt-"6>
+        <a href="/" class="nav-link active">Home</a>
+        <a href="/service" class="nav-link">Projects</a>
+        <a href="/skill" class="nav-link">Skills</a>
+        <a href="/contact" class="nav-link">Contact</a>
+
+    </nav> -->
+
+    <ul class="nav nav-pills flex-column mb-auto">
+        <li class="nav-item">
+          <a href="/" class="nav-link <% if(page_name=='Home'){%> active <%} %>" aria-current="page">
+            <svg class="bi me-2" width="16" height="16"><use xlink:href="#home"></use></svg>
+            Home
+          </a>
+        </li>
+        <li>
+          <a href="/project" class="nav-link <% if(page_name=='project'){%> active <%} %>  ">
+            <svg class="bi me-2" width="16" height="16"><use xlink:href="#speedometer2"></use></svg>
+            Projects
+          </a>
+        </li>
+        <li>
+          <a href="/skill" class="nav-link <% if(page_name=='skill'){%> active <%} %> ">
+            <svg class="bi me-2" width="16" height="16"><use xlink:href="#table"></use></svg>
+            Skills
+          </a>
+        </li>
+        <li>
+          <a href="/contact" class="nav-link <% if(page_name=='contact'){%> active <%} %> ">
+            <svg class="bi me-2" width="16" height="16"><use xlink:href="#grid"></use></svg>
+            Contact
+          </a>
+        </li>
+      </ul>
+
+</div>
