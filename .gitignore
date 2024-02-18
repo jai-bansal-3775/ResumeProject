@@ -1,3 +1,7 @@
 node_modules
 package.json
 package-lock.json
+public/css/bootstrap
+public/css/all
+public/js/all
+public/js/bootstrap.bundle
